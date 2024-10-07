@@ -66,13 +66,22 @@ video {
 }
 
 .jours-neuf {
-  color: #000;
+  color: rgba(0, 0, 0, 0.6);
   background-color: #fff;
   text-align: center;
   font-family: "Open Sans";
-  font-size: 35px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 68.571% */
-  text-transform: uppercase;
+}
+
+.white-card {
+  background-color: #fff;
+  display: flex;
+  padding: 18px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  border-radius: 24px;
 }
